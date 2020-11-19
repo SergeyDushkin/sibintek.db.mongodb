@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.10.3" />
+    <ProjectReference Include="..\sibintek.sibmobile.core\sibintek.sibmobile.core.csproj" />
+  </ItemGroup>
+
+</Project>
